@@ -1,0 +1,85 @@
+.message-container {
+    height: 100%;
+    background-color: #ff073a;
+    padding: 0 5px 5px 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.message-body {
+    position: absolute;
+    top: 50px;
+    bottom: 90px;
+    left: 5px;
+    right: 5px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding: 5px 20px 10px 20px;
+    gap: 10px;
+}
+
+.message-item {
+    overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 90%;
+    background-color: #313131;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.message-left {
+    margin-left: auto;
+}
+
+.message-right {
+    margin-right: auto;
+}
+
+.message-textarea {
+    resize: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    height: 90px;
+    padding: 5px 110px 5px 5px;
+    background-color: bisque;
+    border: 5px solid #ff073a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.message-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    padding: 10px 20px;
+    border: 1px solid #00cc66;
+    border-radius: 50%;
+    color: #ffcc00;
+    text-shadow: 1px 1px 1px #ffcc00, 2px 2px 2px #00cc66, 3px 3px 3px #0033ff;
+}
+
+.message-btn:hover {
+    background-color: #00cc66;
+    color: #ffcc00;
+}
+
+.message-btn:active {
+    background-color: #0033ff;
+    color: #ff073a;
+}

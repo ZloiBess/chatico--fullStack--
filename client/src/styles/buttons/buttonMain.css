@@ -1,0 +1,21 @@
+.button-main {
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: #9c9c9c;
+    color: #ffffff;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #ff073a, 2px 2px 2px #00cc66, 3px 3px 3px #0033ff;
+    border: 1px solid #ffcc00;
+}
+
+.button-main:hover {
+    background-color: #00cc66;
+    color: #ffcc00;
+}
+
+.button-main:active {
+    background-color: #0033ff;
+    color: #ff073a;
+}
